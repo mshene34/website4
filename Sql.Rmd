@@ -1,9 +1,9 @@
 ---
-title: "SQL Website"
+title: "SQL"
 output: html_document
 ---
 
-## Filtering coulumns and Rows
+## Filtering Columns and Rows
 
 With SQL, you can filter columns and row by using SELECT and WHERE. Let's look at an example using the Lahman database. So we could first load that database, along with the package sqldf.
 
@@ -194,4 +194,5 @@ HAVING avg(salary)>1000000
 ORDER BY avg(salary) DESC"
 sqldf(query)
 ```
+
 
